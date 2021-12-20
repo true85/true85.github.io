@@ -20,6 +20,8 @@ docs:
     children:
       - title: "Posts by Year"
         url: /year-archive/
+      - title: "Search"
+        url: /search/        
 
 
 
