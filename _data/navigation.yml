@@ -6,6 +6,8 @@ main:
     url : /tags/
   - title: "Archive"
     url: /year-archive/
+  - title: "Search"
+    url: /search/
 
 docs:
   - title: "대목차1"
