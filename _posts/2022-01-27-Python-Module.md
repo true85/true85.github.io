@@ -24,3 +24,9 @@ print(Back.WHITE + Fore.RED + Style.NORMAL + " TEST " + Style.RESET_ALL)
 print(Back.WHITE + Fore.RED + Style.DIM + " TEST " + Style.RESET_ALL)
 print(Back.WHITE + Fore.RED + Style.BRIGHT + " TEST " + Style.RESET_ALL)
 ```
+## dlib
+: 얼굴찾기
+```py
+detector = dlib.get_frontal_face_detector()
+predictor = dlib.shape_predictor('shape_predictor_68_face_landmarks.dat')
+```
