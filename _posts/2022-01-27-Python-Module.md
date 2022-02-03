@@ -30,3 +30,11 @@ print(Back.WHITE + Fore.RED + Style.BRIGHT + " TEST " + Style.RESET_ALL)
 detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor('shape_predictor_68_face_landmarks.dat')
 ```
+
+## os
+```py
+목표.replace("old","new")
+rename(전,후)
+os.listdir('path')
+```
+
