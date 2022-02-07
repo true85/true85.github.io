@@ -26,6 +26,8 @@ print(Back.WHITE + Fore.RED + Style.BRIGHT + " TEST " + Style.RESET_ALL)
 ```
 ## dlib
 : 얼굴찾기
+
+얼굴에 요소를 찾아서 점찍어준다.
 ```py
 detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor('shape_predictor_68_face_landmarks.dat')
