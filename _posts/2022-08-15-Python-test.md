@@ -24,3 +24,15 @@ sidebar:
 assert <표현식> [,'진단메세지']
 assert isinstance(10,int), 'Expected int'
 ```
+### unittest
+단위 테스트
+```py
+import unittest
+```
+
+## logging
+```py
+import logging
+```
+
+## debuging
