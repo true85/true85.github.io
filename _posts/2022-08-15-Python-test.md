@@ -17,7 +17,9 @@ sidebar:
 
 
 ## Test
-
+### repr
+print(repr(x)) :
+더 많은 정보를 볼수 있다.
 ### assert
 참이 아니면 AssertionError 발생
 ```py
@@ -36,3 +38,4 @@ import logging
 ```
 
 ## debuging
+`breakpoint()`
