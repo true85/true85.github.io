@@ -1,5 +1,5 @@
 ---
-title:  "IT 시험 정리"
+title:  "IT 시험 정리 Gesellschaftslehre"
 layout: single
 categories: klasure
 tag: IT Test
