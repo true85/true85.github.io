@@ -14,14 +14,14 @@ sidebar:
 # Abschlussprüfung Teil 1
 
 ## WBL
-[WBL](https://true85.github.io/WBL/)
+[WBL](https://true85.github.io/klasure/WBL/)
 ## Gesellschaftslehre
-[Gesellschaftslehre](https://true85.github.io/Gesellschaftslehre/)
+[Gesellschaftslehre](https://true85.github.io/klasure/Gesellschaftslehre/)
 ## IT
-[IT-E](https://true85.github.io/IT-E/)
-[IT-P](https://true85.github.io/IT-P/)
+[IT-E](https://true85.github.io/klasure/IT-E/)
+[IT-P](https://true85.github.io/klasure/IT-P/)
 ## etc.
-[etc](https://true85.github.io/etc/)
+[etc](https://true85.github.io/klasure/etc/)
 
 ```
 ```
