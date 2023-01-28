@@ -109,7 +109,8 @@ DELETE FROM table_name WHERE condition;
 ### SQL-Abfrage
 - DDL, DML, DQL, DCL
 ![Abfrage](/assets/images/sql-commands.jpg)  
-- SELECT-Aufbau rauf und runter: FROM, WHERE, JOIN, GROUP BY, HAVING, ORDER BY
+- SELECT-Aufbau rauf und runter: FROM, WHERE, JOIN, GROUP BY, HAVING, ORDER BY  
+
 ```SQL
 ---GROUP BY
 SELECT column_name(s)
