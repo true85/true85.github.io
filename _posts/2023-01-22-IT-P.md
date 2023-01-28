@@ -20,7 +20,7 @@ sidebar:
 ## IT
 [IT-E](https://true85.github.io/klausure/IT-E/)
 [IT-P](https://true85.github.io/klausure/IT-P/)
-[IT-P](https://true85.github.io/klausure/Datenbank/)
+[Datenbank](https://true85.github.io/klausure/Datenbank/)
 ## etc.
 [etc](https://true85.github.io/klausure/etc/)
 
