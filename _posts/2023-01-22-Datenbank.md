@@ -59,6 +59,7 @@ Replikation ist ein Verfahren, bei dem Daten von einer Datenbank auf eine oder m
 ### SQL-Befehle:
 - CREATE, ALTER TABLE  
 <!-- 왜 검정 바탕화면이 안나오는거지? 혹시 sql 소문자로 적어야하나?-->
+
 ```sql
 CREATE TABLE Tabellenname
 ( Datenfeld1 Datentyp [Attribut1 Attribut2],
@@ -95,18 +96,18 @@ ALTER COLUMN column_name datatype;
 
 - INSERT, UPDATE, DELETE
 
-```SQL
+```sql
 INSERT INTO table_name (column1, column2, column3, ...)
 VALUES (value1, value2, value3, ...);
 ```
 
-```SQL
+```sql
 UPDATE table_name
 SET column1 = value1, column2 = value2, ...
 WHERE condition;
 ```
 
-```SQL
+```sql
 DELETE FROM table_name WHERE condition;
 ```
 
@@ -115,7 +116,7 @@ DELETE FROM table_name WHERE condition;
 ![Abfrage](/assets/images/sql-commands.jpg)  
 - SELECT-Aufbau rauf und runter: FROM, WHERE, JOIN, GROUP BY, HAVING, ORDER BY  
 
-```SQL
+```sql
 ---GROUP BY
 SELECT column_name(s)
 FROM table_name
@@ -124,7 +125,7 @@ GROUP BY column_name(s)
 ORDER BY column_name(s);
 ```
 
-```SQL
+```sql
 ---HAVING
 SELECT column_name(s)
 FROM table_name
@@ -134,7 +135,7 @@ HAVING condition
 ORDER BY column_name(s);
 ```
 
-```SQL
+```sql
 ---ORDER BY
 SELECT column1, column2, ...
 FROM table_name
@@ -143,7 +144,7 @@ ORDER BY column1, column2, ... ASC|DESC;
 
 - Aggregatfunktionen COUNT, SUM, AVG etc
   
-```SQL
+```sql
 SELECT COUNT(column_name), AVG(column_name), SUM(column_name)
 FROM table_name
 WHERE condition;
