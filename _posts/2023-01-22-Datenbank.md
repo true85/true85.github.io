@@ -58,7 +58,7 @@ Replikation ist ein Verfahren, bei dem Daten von einer Datenbank auf eine oder m
 
 ### SQL-Befehle:
 - CREATE, ALTER TABLE  
-  
+<!-- 뭥미 -->
 ```SQL
 CREATE TABLE Tabellenname
 ( Datenfeld1 Datentyp [Attribut1 Attribut2],
@@ -70,7 +70,6 @@ CREATE TABLE Tabellenname
  [ON UPDATE {RESTRICT | CASCADE | SET NULL | NO ACTION}]
 )
 ENGINE = INNODB;
-
 CREATE TABLE Persons (
     PersonID int,
     LastName varchar(255),
@@ -135,6 +134,7 @@ FROM table_name
 ORDER BY column1, column2, ... ASC|DESC;
 ```
 - Aggregatfunktionen COUNT, SUM, AVG etc
+  
 ```SQL
 SELECT COUNT(column_name), AVG(column_name), SUM(column_name)
 FROM table_name
