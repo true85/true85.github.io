@@ -57,7 +57,6 @@ Replikation ist ein Verfahren, bei dem Daten von einer Datenbank auf eine oder m
 ### SQL-Befehle:
 - CREATE, ALTER TABLE  
 ```SQL
---Erstellt eine Tabelle
 CREATE TABLE Tabellenname
 ( Datenfeld1 Datentyp [Attribut1 Attribut2],
  Datenfeld2 Datentyp [Attribut1 Attribut2],
