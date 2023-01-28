@@ -27,20 +27,25 @@ sidebar:
 
 ## a
 ### Redundanz, Primär-/Fremdschlüssel, Datensatz
-: Zeichen für schlechtes Datenbankdesign 
-  Sind doppelte Informationen in einer Datenbank bzw. Datenbank-Tabelle.
+Redundanz
+: Zeichen für schlechtes Datenbankdesign  
+Sind doppelte Informationen in einer Datenbank bzw. Datenbank-Tabelle. 
+Primär-/Fremdschlüssel 
 : Eine Spalte oder Spaltengruppe mit Werten in einer Tabelle, deren Werte eine Zeile in der Tabelle eindeutig kennzeichnen.
 : Eine Spalte oder eine Spaltengruppe in einer Tabelle, deren Werte den Werten des Primärschlüssels in einer anderen Tabelle entsprechen.  
+Datensatz
 : Ein Datensatz besteht aus einer Sammlung von miteinander verknüpften, aber eigenständigen Daten, die entweder einzeln oder auch gemeinsam aufgerufen und weiterverarbeitet werden können. Jeder Datensatz ist in einer bestimmten Datenstruktur organisiert.  
 
 ### referentielle Integrität
 - Maßnahmen bei Löschoperationen (Constraints): CASCADE, DENY/RESTRICT, SET NULL
 : Referentielle Integrität ist ein Konzept in relationalen Datenbanken, das sicherstellt, dass Datensätze in verschiedenen Tabellen miteinander verknüpft sind und dass keine ungültigen Verknüpfungen bestehen. Dies wird durch die Verwendung von Fremdschlüsseln erreicht. Ein Fremdschlüssel ist ein Schlüssel, der in einer Tabelle verwendet wird, um einen Bezug zu einem Primärschlüssel in einer anderen Tabelle herzustellen.  
+
 Es gibt drei Arten von Regeln für referentielle Integrität:
 
-CASCADE : Wenn ein Primärschlüssel geändert oder gelöscht wird, werden die zugehörigen Fremdschlüssel automatisch geändert oder gelöscht.
-SET NULL : Wenn ein Primärschlüssel gelöscht wird, werden die zugehörigen Fremdschlüssel auf NULL gesetzt.
-RESTRICT : Wenn ein Primärschlüssel gelöscht oder geändert wird, werden die zugehörigen Fremdschlüssel nicht geändert oder gelöscht und es wird ein Fehler ausgelöst.  
+CASCADE : Wenn ein Primärschlüssel geändert oder gelöscht wird, werden die zugehörigen Fremdschlüssel automatisch geändert oder gelöscht.  
+SET NULL : Wenn ein Primärschlüssel gelöscht wird, werden die zugehörigen Fremdschlüssel auf NULL gesetzt.  
+RESTRICT : Wenn ein Primärschlüssel gelöscht oder geändert wird, werden die zugehörigen Fremdschlüssel nicht geändert oder gelöscht und es wird ein Fehler ausgelöst.    
+
 Referentielle Integrität sorgt dafür, dass die Daten in Ihrer Datenbank konsistent und vor Inkonsistenzen geschützt sind, und dass die Beziehungen zwischen den Tabellen immer korrekt sind.  
 
 ### Replikation erläutern
@@ -50,7 +55,7 @@ Replikation ist ein Verfahren, bei dem Daten von einer Datenbank auf eine oder m
 : Auslöser, bsp.: Bestand kleiner als X, dann Meldung an Benutzer  
 
 ### SQL-Befehle:
-- CREATE, ALTER TABLE
+- CREATE, ALTER TABLE  
 ```SQL
 --Erstellt eine Tabelle
 CREATE TABLE Tabellenname
