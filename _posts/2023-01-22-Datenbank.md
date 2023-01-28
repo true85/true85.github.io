@@ -58,7 +58,7 @@ Replikation ist ein Verfahren, bei dem Daten von einer Datenbank auf eine oder m
 
 ### SQL-Befehle:
 - CREATE, ALTER TABLE  
-<!-- 왜 검정 바탕화면이 안나오는거지? -->
+<!-- 왜 검정 바탕화면이 안나오는거지? 혹시 sql 소문자로 적어야하나?-->
 ```sql
 CREATE TABLE Tabellenname
 ( Datenfeld1 Datentyp [Attribut1 Attribut2],
@@ -78,7 +78,8 @@ CREATE TABLE Persons (
     City varchar(255)
 );
 ```
-```SQL
+
+```sql
 ALTER TABLE table_name
 ADD column_name datatype;
 
@@ -91,20 +92,24 @@ RENAME COLUMN old_name to new_name;
 ALTER TABLE table_name
 ALTER COLUMN column_name datatype;
 ```
+
 - INSERT, UPDATE, DELETE
 
 ```SQL
 INSERT INTO table_name (column1, column2, column3, ...)
 VALUES (value1, value2, value3, ...);
 ```
+
 ```SQL
 UPDATE table_name
 SET column1 = value1, column2 = value2, ...
 WHERE condition;
 ```
+
 ```SQL
 DELETE FROM table_name WHERE condition;
 ```
+
 ### SQL-Abfrage
 - DDL, DML, DQL, DCL
 ![Abfrage](/assets/images/sql-commands.jpg)  
@@ -118,6 +123,7 @@ WHERE condition
 GROUP BY column_name(s)
 ORDER BY column_name(s);
 ```
+
 ```SQL
 ---HAVING
 SELECT column_name(s)
@@ -127,12 +133,14 @@ GROUP BY column_name(s)
 HAVING condition
 ORDER BY column_name(s);
 ```
+
 ```SQL
 ---ORDER BY
 SELECT column1, column2, ...
 FROM table_name
 ORDER BY column1, column2, ... ASC|DESC;
 ```
+
 - Aggregatfunktionen COUNT, SUM, AVG etc
   
 ```SQL
@@ -141,7 +149,7 @@ FROM table_name
 WHERE condition;
 ```
 
-### 
+### Kardinalitäten
 Kardinalitäten: 
 Die Kardinalität von Beziehungen definiert, wie viele Entitäten eines Entitätstyps mit genau einer Entität des anderen am Beziehungstyp beteiligten Entitätstyps (und umgekehrt) in Relation (Beziehung) stehen können oder müssen. Die Kardinalität von Beziehungen ist in relationalen Datenbanken in folgenden Formen vorhanden: 1:1 Beziehung, 1:n Beziehung und m:n Beziehung.
 
