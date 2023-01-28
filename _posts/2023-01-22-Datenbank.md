@@ -30,9 +30,11 @@ sidebar:
 Redundanz
 : Zeichen für schlechtes Datenbankdesign  
 Sind doppelte Informationen in einer Datenbank bzw. Datenbank-Tabelle. 
+
 Primär-/Fremdschlüssel 
-: Eine Spalte oder Spaltengruppe mit Werten in einer Tabelle, deren Werte eine Zeile in der Tabelle eindeutig kennzeichnen.
+: Eine Spalte oder Spaltengruppe mit Werten in einer Tabelle, deren Werte eine Zeile in der Tabelle eindeutig kennzeichnen.  
 : Eine Spalte oder eine Spaltengruppe in einer Tabelle, deren Werte den Werten des Primärschlüssels in einer anderen Tabelle entsprechen.  
+
 Datensatz
 : Ein Datensatz besteht aus einer Sammlung von miteinander verknüpften, aber eigenständigen Daten, die entweder einzeln oder auch gemeinsam aufgerufen und weiterverarbeitet werden können. Jeder Datensatz ist in einer bestimmten Datenstruktur organisiert.  
 
@@ -56,6 +58,7 @@ Replikation ist ein Verfahren, bei dem Daten von einer Datenbank auf eine oder m
 
 ### SQL-Befehle:
 - CREATE, ALTER TABLE  
+
 ```SQL
 CREATE TABLE Tabellenname
 ( Datenfeld1 Datentyp [Attribut1 Attribut2],
@@ -90,6 +93,7 @@ ALTER TABLE table_name
 ALTER COLUMN column_name datatype;
 ```
 - INSERT, UPDATE, DELETE
+
 ```SQL
 INSERT INTO table_name (column1, column2, column3, ...)
 VALUES (value1, value2, value3, ...);
