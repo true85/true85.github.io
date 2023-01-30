@@ -149,7 +149,7 @@ ORDER BY column1, column2, ... ASC|DESC;
 - Aggregatfunktionen COUNT, SUM, AVG etc
   
 ```sql
-SELECT COUNT(column_name), AVG(column_name), SUM(column_name)
+SELECT COUNT(column_name), AVG(column_name), SUM(column_name), COUNT(DISTINCT column_name), MAX(column_name), MIN(column_name)
 FROM table_name
 WHERE condition;
 ```
