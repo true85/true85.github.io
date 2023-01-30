@@ -94,6 +94,10 @@ ALTER TABLE table_name
 ALTER COLUMN column_name datatype;
 ```
 
+```sql
+DROP TABLE table_name;
+```
+
 - INSERT, UPDATE, DELETE
 
 ```sql
