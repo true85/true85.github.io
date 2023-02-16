@@ -26,6 +26,13 @@ sidebar:
 
 
 ## a
+### Normalisierung
+#### 1
+
+#### 2
+
+#### 3
+
 ### Redundanz, Primär-/Fremdschlüssel, Datensatz
 Redundanz
 : Zeichen für schlechtes Datenbankdesign  
@@ -116,7 +123,7 @@ DELETE FROM table_name WHERE condition;
 ```
 
 ### SQL-Abfrage
-- DDL, DML, DQL, DCL
+- DDL, DML, DQL, DCL, TCL
 ![Abfrage](/assets/images/sql-commands.jpeg)  
 - SELECT-Aufbau rauf und runter: FROM, WHERE, JOIN, GROUP BY, HAVING, ORDER BY  
 
